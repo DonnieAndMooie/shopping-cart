@@ -4,7 +4,7 @@ import Nav from './Nav'
 import stadium from '../images/stadium.avif'
 import lotsOfShirts from '../images/lots-of-shirts.jpg'
 import shirt from '../images/shirts/england-shirt.jpeg'
-import boots from '../images/nike-mercurial.jpeg'
+import boots from '../images/boots/nike-mercurial.jpeg'
 import ball from '../images/qatar-ball.jpeg'
 import more from '../images/maradona-shirt.jpg'
 

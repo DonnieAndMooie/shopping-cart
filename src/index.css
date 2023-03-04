@@ -202,3 +202,42 @@ body{
   color: white;
   font-family: "Lato", sans-serif;
 }
+
+.item{
+  background-color: white;
+  border-radius: 20px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-heading,
+.item-price{
+  font-family: "Lato", sans-serif;
+}
+
+.item-link{
+  font-family: "Lato", sans-serif;
+  background-color: grey;
+  padding: 20px;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.item-link:hover{
+  background-color: black;
+  color: white;
+}
+
+.item-img{
+  height: 200px;
+}
+
+.products-grid{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}

@@ -1,23 +1,19 @@
-Orbitron Variable Font
-======================
+Tilt Warp Variable Font
+=======================
 
-This download contains Orbitron as both a variable font and static fonts.
+This download contains Tilt Warp as both a variable font and a static font.
 
-Orbitron is a variable font with this axis:
-  wght
+Tilt Warp is a variable font with these axes:
+  XROT
+  YROT
 
 This means all the styles are contained in a single file:
-  Orbitron-VariableFont_wght.ttf
+  TiltWarp-Regular-VariableFont_XROT,YROT.ttf
 
 If your app fully supports variable fonts, you can now pick intermediate styles
 that aren’t available as static fonts. Not all apps support variable fonts, and
-in those cases you can use the static font files for Orbitron:
-  static/Orbitron-Regular.ttf
-  static/Orbitron-Medium.ttf
-  static/Orbitron-SemiBold.ttf
-  static/Orbitron-Bold.ttf
-  static/Orbitron-ExtraBold.ttf
-  static/Orbitron-Black.ttf
+in those cases you can use the static font file for Tilt Warp:
+  static/TiltWarp-Regular.ttf
 
 Get started
 -----------

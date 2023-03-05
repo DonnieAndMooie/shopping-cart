@@ -67,8 +67,10 @@ const boots = [
 export default function Boots() {
   return (
     <div className='products-grid'>
-      {boots.map(boot => <Item title={boot.title} imgSrc={boot.imgSrc} price={boot.price}></Item>)}
+      {boots.map(boot => <Item key={boot.title} title={boot.title} imgSrc={boot.imgSrc} price={boot.price}></Item>)}
     </div>
     
   )
 }
+
+export { boots }

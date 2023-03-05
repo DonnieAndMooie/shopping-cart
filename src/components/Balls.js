@@ -68,7 +68,9 @@ const balls =[{
 export default function Balls() {
   return (
     <div className='products-grid'>
-      {balls.map(ball => <Item title={ball.title} imgSrc={ball.imgSrc} price={ball.price}></Item>)}
+      {balls.map(ball => <Item key={ball.title} title={ball.title} imgSrc={ball.imgSrc} price={ball.price}></Item>)}
     </div>
   )
 }
+
+export { balls }

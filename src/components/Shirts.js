@@ -15,52 +15,62 @@ const shirts = [
   {
     title: "England Shirt",
     imgSrc: englandShirt,
-    price: "£60.00"
+    price: "£60.00",
+    type: "shirts"
   },
   {
     title: "Arsenal Shirt",
     imgSrc: arsenalShirt,
-    price: "£42.00"
+    price: "£42.00",
+    type: "shirts"
   },
   {
     title: "Brazil Shirt",
     imgSrc: brazilShirt,
-    price: "£48.00"
+    price: "£48.00",
+    type: "shirts"
   },
   {
     title: "Dortmund Shirt",
     imgSrc: dortmundShirt,
-    price: "£90.00"
+    price: "£90.00",
+    type: "shirts"
   },
   {
     title: "Liverpool Shirt",
     imgSrc: liverpoolShirt,
-    price: "£65.00"
+    price: "£65.00",
+    type: "shirts"
   },
   {
     title: "Netherlands Shirt",
     imgSrc: netherlandShirt,
-    price: "£90.00"
+    price: "£90.00",
+    type: "shirts"
   },
   {
     title: "Spain Shirt",
     imgSrc: spainShirt,
-    price: "£75.50"
+    price: "£75.50",
+    type: "shirts"
   },
   {
     title: "Spurs Shirt",
     imgSrc: spursShirt,
-    price: "£35.75"
+    price: "£35.75",
+    type: "shirts"
   },
   {
     title: "AC Milan Shirt",
     imgSrc: milanShirt,
-    price: "£90.00"
+    price: "£90.00",
+    type: "shirts"
   },
   {
     title: "Barcelona Shirt",
     imgSrc: barcelonaShirt,
-    price: "£72.00"
+    price: "£72.00",
+    type: "shirts"
   },
 ]
 

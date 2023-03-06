@@ -15,52 +15,62 @@ const other = [
   {
     title: "500 PL Goals DVD",
     imgSrc: GoalsDVD,
-    price: "£5.20"
+    price: "£5.20",
+    type: "other"
   },
   {
     title: "Corner Flag",
     imgSrc: cornerFlag,
-    price: "£12.75"
+    price: "£12.75",
+    type: "other"
   },
   {
     title: "England Scarf",
     imgSrc: englandScarf,
-    price: "£7.40"
+    price: "£7.40",
+    type: "other"
   },
   {
     title: "Goalkeeper Gloves",
     imgSrc: gloves,
-    price: "£4.20"
+    price: "£4.20",
+    type: "other"
   },
   {
     title: "Goal",
     imgSrc: goal,
-    price: "£23.00"
+    price: "£23.00",
+    type: "other"
   },
   {
     title: "Messi Cardboard Cutout",
     imgSrc: messiCutout,
-    price: "£12.00"
+    price: "£12.00",
+    type: "other"
   },
   {
     title: "Replica FA Cup",
     imgSrc: faCup,
-    price: "£18.50"
+    price: "£18.50",
+    type: "other"
   },
   {
     title: "Shinpads",
     imgSrc: shinpads,
-    price: "£3.50"
+    price: "£3.50",
+    type: "other"
   },
   {
     title: "Socks",
     imgSrc: socks,
-    price: "£1.80"
+    price: "£1.80",
+    type: "other"
   },
   {
     title: "Wembley Stadium Model",
     imgSrc: wembley,
-    price: "£23.00"
+    price: "£23.00",
+    type: "other"
   },
 ]
 

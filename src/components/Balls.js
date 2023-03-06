@@ -14,52 +14,62 @@ import ucl18 from '../images/balls/ucl-final-2018.jpeg'
 const balls =[{
   title: "Adidas Brazuca",
   imgSrc: adidasBrazuca,
-  price: "£18.00"
+  price: "£18.00",
+  type: "balls"
   },
   {
   title: "Adidas Jabulnai",
   imgSrc: adidasJabulani,
-  price: "£14.50"
+  price: "£14.50",
+  type: "balls"
   },
   {
     title: "Adidas Telstar",
     imgSrc: adidasTelstar,
-    price: "£32.00"
+    price: "£32.00",
+    type: "balls"
   },
   {
     title: "Euro 2012",
     imgSrc: euro2012,
-    price: "£12.00"
+    price: "£12.00",
+    type: "balls"
   },
   {
     title: "Euro 2020",
     imgSrc: euro2020,
-    price: "£25.75"
+    price: "£25.75",
+    type: "balls"
   },
   {
     title: "La Liga",
     imgSrc: laLiga,
-    price: "£36.00"
+    price: "£36.00",
+    type: "balls"
   },
   {
     title: "Premier League 04/05",
     imgSrc: pl0405,
-    price: "£23.00"
+    price: "£23.00",
+    type: "balls"
   },
   {
     title: "Premier League 22/23",
     imgSrc: pl2223,
-    price: "£40.00"
+    price: "£40.00",
+    type: "balls"
   },
   {
     title: "Champions League 2023",
     imgSrc: ucl23,
-    price: "£35.50"
+    price: "£35.50",
+    type: "balls"
   },
   {
     title: "Champions League 2018",
     imgSrc: ucl18,
-    price: "£25.00"
+    price: "£25.00",
+    type: "balls"
   },
   
 

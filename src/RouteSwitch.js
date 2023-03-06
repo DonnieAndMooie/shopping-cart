@@ -7,6 +7,7 @@ import { shirts } from "./components/Shirts"
 import { boots } from "./components/Boots"
 import { balls } from "./components/Balls"
 import { other } from "./components/Other"
+import ProductPage from "./components/ProductPage"
 
 const allItems = [...shirts, ...boots, ...balls, ...other]
 
@@ -21,6 +22,7 @@ export default function RouteSwitch() {
             <Route path="/products/balls" element={<Products type="balls"/>}></Route>
             <Route path="/products/other" element={<Products type="other"/>}></Route>
             <Route path="/contact" element={<Contact/>}></Route>
+            {allItems.map((item, i) => <Route key={i} path={`/products/${item.title}`} element={<ProductPage item={item}></ProductPage>}></Route>)}
         </Routes>
     </BrowserRouter>
   )

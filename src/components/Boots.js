@@ -15,52 +15,62 @@ const boots = [
   {
     title: "Nike Mercurials",
     imgSrc: nikeMercurials,
-    price: "£48.00"
+    price: "£48.00",
+    type: "boots"
   },
   {
     title: "Adidas Copa Mundials",
     imgSrc: adidasCopaMundials,
-    price: "£56.00"
+    price: "£56.00",
+    type: "boots"
   },
   {
     title: "Adidas Pink",
     imgSrc: adidasPink,
-    price: "£32.00"
+    price: "£32.00",
+    type: "boots"
   },
   {
     title: "Adidas Predators",
     imgSrc: adidasPredators,
-    price: "£62.00"
+    price: "£62.00",
+    type: "boots"
   },
   {
     title: "Adidas Speed-Portal",
     imgSrc: adidasSpeedPortal,
-    price: "£40.50"
+    price: "£40.50",
+    type: "boots"
   },
   {
     title: "Mercurial Vapor Pink",
     imgSrc: mercurialVaporPink,
-    price: "£92.00"
+    price: "£92.00",
+    type: "boots"
   },
   {
     title: "Nike Mercurial Black",
     imgSrc: nikeMercurialBlack,
-    price: "£75.50"
+    price: "£75.50",
+    type: "boots"
   },
   {
     title: "Nike Superfly",
     imgSrc: nikeSuperfly,
-    price: "£44.00"
+    price: "£44.00",
+    type: "boots"
   },
   {
     title: "Umbro Black",
     imgSrc: umbroBlack,
-    price: "£20.25"
+    price: "£20.25",
+    type: "boots"
   },
   {
     title: "Under Armour White",
     imgSrc: underArmourWhite,
-    price: "£35.00"
+    price: "£35.00",
+    type: "boots"
   },
 ]
 

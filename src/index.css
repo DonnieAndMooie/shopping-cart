@@ -43,7 +43,7 @@ body{
 }
 
 .link::selection,
-.logo::selection{
+img::selection{
   background: none;
 }
 
@@ -299,7 +299,9 @@ body{
   cursor: pointer;
 }
 
-.add-item{
+.add-item,
+.checkout,
+.remove{
   background-color: white;
   font-size: 24px;
   outline: none;
@@ -310,7 +312,9 @@ body{
   font-family: "Lato", sans-serif;
 }
 
-.add-item:hover{
+.add-item:hover,
+.checkout:hover,
+.remove:hover{
   background-color: black;
   color: white;
   cursor: pointer;
@@ -318,4 +322,68 @@ body{
 
 .back-button{
   margin-right: auto;
+}
+
+.basket-icon{
+  filter: invert(1);
+  cursor: pointer;
+}
+
+.basket{
+  display: flex;
+}
+
+
+.basket-text{
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+
+.basket-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.basket-page{
+  background-color: white;
+  border-radius: 10rem;
+  margin: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.basket-item{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 4rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid grey;
+}
+
+.basket-item img{
+  height: 8rem;
+  grid-column: 1;
+}
+.basket-item *{
+  grid-column: 2;
+  font-family: "Lato", sans-serif;
+}
+
+.basket-item p{
+  font-style: italic;
+}
+
+.basket-title{
+  font-size: 3rem;
+  font-family: "Patua", sans-serif;
+}
+
+.checkout{
+  margin-bottom: 4rem;
+}
+
+.remove{
+  font-size: 1rem;
 }

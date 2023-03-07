@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Nav from './Nav'
 
 import stadium from '../images/stadium.avif'
@@ -8,10 +8,10 @@ import boots from '../images/boots/nike-mercurial.jpeg'
 import ball from '../images/qatar-ball.jpeg'
 import more from '../images/maradona-shirt.jpg'
 
-export default function Home() {
+export default function Home({numItems, total}) {
   return (
     <div className='home'>
-        <Nav></Nav>
+        <Nav numItems={numItems} total={total}></Nav>
         <h1 className='home-heading'>Welcome to FakeFootballStore!</h1>
         <p className="intro">Are you football mad? If you are,
         FakeFootballStore is perfect for you! We have everything

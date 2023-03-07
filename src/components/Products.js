@@ -6,7 +6,7 @@ import Balls from './Balls'
 import Boots from './Boots'
 import Other from './Other'
 
-export default function Products({type}) {
+export default function Products({numItems, total, type}) {
     let selectedElement
     if (type === "shirts"){
         selectedElement = <Shirts></Shirts>
@@ -22,7 +22,7 @@ export default function Products({type}) {
     }
   return (
     <div>
-        <Nav></Nav>
+        <Nav total={total} numItems={numItems} ></Nav>
         <div className="page-content">
             <ProductSidebar></ProductSidebar>
             {selectedElement}

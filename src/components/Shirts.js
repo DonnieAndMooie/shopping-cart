@@ -74,7 +74,7 @@ const shirts = [
   },
 ]
 
-export default function Shirts() {
+export default function Shirts({total, setTotal}) {
   return (
     <div className="products-grid">
       {shirts.map(shirt => <Item key={shirt.title} title={shirt.title} imgSrc={shirt.imgSrc} price={shirt.price}></Item>)}

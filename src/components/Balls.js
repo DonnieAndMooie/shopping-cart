@@ -18,7 +18,7 @@ const balls =[{
   type: "balls"
   },
   {
-  title: "Adidas Jabulnai",
+  title: "Adidas Jabulani",
   imgSrc: adidasJabulani,
   price: "£14.50",
   type: "balls"
@@ -48,13 +48,13 @@ const balls =[{
     type: "balls"
   },
   {
-    title: "Premier League 04/05",
+    title: "Premier League 04-05",
     imgSrc: pl0405,
     price: "£23.00",
     type: "balls"
   },
   {
-    title: "Premier League 22/23",
+    title: "Premier League 22-23",
     imgSrc: pl2223,
     price: "£40.00",
     type: "balls"

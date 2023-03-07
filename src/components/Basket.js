@@ -13,6 +13,13 @@ export default function Basket({basket, setBasket, numItems, total, setNumItems,
     setTotal(total - (deletedItem.item.price.substring(1) * deletedItem.quantity))
   }
 
+  const submitOrder = () => {
+    alert("You Checked Out!")
+    setBasket([])
+    setNumItems(0)
+    setTotal(0)
+  }
+
   return (
     <div>
       <Nav total={total} numItems={numItems}></Nav>
@@ -31,7 +38,7 @@ export default function Basket({basket, setBasket, numItems, total, setNumItems,
 
               </div>
         )})}
-        <button className="checkout" onClick={() => alert("You Checked Out!")}>Checkout</button>
+        <button className="checkout" onClick={() => submitOrder()}>Checkout</button>
         </div>
     </div>
 

@@ -25,7 +25,7 @@ export default function RouteSwitch() {
             <Route path="/products/boots" element={<Products numItems={numItems} total={total} type="boots"/>}></Route>
             <Route path="/products/balls" element={<Products numItems={numItems} total={total} type="balls"/>}></Route>
             <Route path="/products/other" element={<Products numItems={numItems} total={total} type="other"/>}></Route>
-            <Route path="/contact" element={<Contact/>}></Route>
+            <Route path="/contact" element={<Contact numItems={numItems} total={total}/>}></Route>
             {allItems.map((item, i) => <Route key={i} path={`/products/${item.title}`} element={<ProductPage item={item} total={total} setTotal={setTotal} numItems={numItems} setNumItems={setNumItems} basket={basket} setBasket={setBasket}></ProductPage>}></Route>)}
             <Route path="/basket" element={<Basket basket={basket} setBasket={setBasket} numItems={numItems} total={total} setNumItems={setNumItems} setTotal={setTotal}/>}></Route>
         </Routes>

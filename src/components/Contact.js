@@ -5,10 +5,10 @@ import twitter from '../images/icons8-twitter.svg'
 import facebook from '../images/facebook.svg'
 import instagram from '../images/instagram.svg'
 
-export default function Contact() {
+export default function Contact({numItems, total}) {
   return (
     <div className='contact'>
-        <Nav></Nav>
+        <Nav total={total} numItems={numItems}></Nav>
         <h1 className='contact-heading'>Contact Us</h1>
         <img className='map' src={map} alt="Map" />
         <p className='address'>Find us at:</p>

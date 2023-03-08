@@ -9,7 +9,7 @@ export default function Nav({total, numItems}) {
     currency: "GBP"
   })
   return (
-    <div className='nav'>
+    <div className='nav' data-testid="nav">
       <div className="left-links">
       <Link className='link logo-link' to="/">
         <img src={logo} alt="Football Logo" className='logo' />FakeFootballStore
@@ -24,8 +24,8 @@ export default function Nav({total, numItems}) {
           </Link>
           
           <div className="basket-text">
-            <p className="num-items">Number of Items: {numItems}</p>
-            <p className="total">Total: {formatter.format(total)}</p>
+            <p className="num-items" data-testid="num-items">Number of Items: {numItems}</p>
+            <p className="total" data-testid="total">Total: {formatter.format(total)}</p>
           </div>
         </div>
       </div>

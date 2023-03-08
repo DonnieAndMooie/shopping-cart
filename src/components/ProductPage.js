@@ -17,7 +17,7 @@ export default function ProductPage({item, total, setTotal, numItems, setNumItem
       <div className="product-container">
       <div className="product-page">
         <Link className='back-button' to={`/products/${item.type}`}>
-          <button className="back-button">⬅</button>
+          <button className="back-button" data-testid="back-btn">⬅</button>
         </Link>
         <h1>{item.title}</h1>
         <img src={item.imgSrc} alt={item.title} />

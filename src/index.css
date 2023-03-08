@@ -345,6 +345,11 @@ img::selection{
   align-items: center;
 }
 
+.basket-icon:hover,
+.logo:hover{
+  filter: invert(0.5);
+}
+
 .basket-page{
   background-color: white;
   border-radius: 10rem;

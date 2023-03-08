@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shopping-cart/static/css/main.137ba791.css",
-    "main.js": "/shopping-cart/static/js/main.7b5f2c85.js",
+    "main.js": "/shopping-cart/static/js/main.e60828b2.js",
     "static/js/787.37107a07.chunk.js": "/shopping-cart/static/js/787.37107a07.chunk.js",
     "static/media/replica-fa-cup.webp": "/shopping-cart/static/media/replica-fa-cup.b10b72ff24967a7ff685.webp",
     "static/media/500-pl-goals-dvd.jpg": "/shopping-cart/static/media/500-pl-goals-dvd.c0d9449c2a608ae2c8bf.jpg",
@@ -43,11 +43,11 @@
     "static/media/instagram.svg": "/shopping-cart/static/media/instagram.a0943643c0d5afa017fc7fae53fca463.svg",
     "static/media/facebook.svg": "/shopping-cart/static/media/facebook.2331665376bd55d4be31908ca8307766.svg",
     "main.137ba791.css.map": "/shopping-cart/static/css/main.137ba791.css.map",
-    "main.7b5f2c85.js.map": "/shopping-cart/static/js/main.7b5f2c85.js.map",
+    "main.e60828b2.js.map": "/shopping-cart/static/js/main.e60828b2.js.map",
     "787.37107a07.chunk.js.map": "/shopping-cart/static/js/787.37107a07.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.137ba791.css",
-    "static/js/main.7b5f2c85.js"
+    "static/js/main.e60828b2.js"
   ]
 }

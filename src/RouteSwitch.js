@@ -17,7 +17,7 @@ export default function RouteSwitch() {
   const [total, setTotal] = useState(0)
   const [basket, setBasket] = useState([])
   return (
-    <BrowserRouter basename="https://donnieandmooie.github.io/shopping-cart">
+    <BrowserRouter basename="/">
         <Routes>
             <Route path="/" element={<Home numItems={numItems} total={total}/>}></Route>
             <Route path="/products" element={<Products numItems={numItems} total={total} type="shirts"/>}></Route>
